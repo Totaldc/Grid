@@ -1,13 +1,45 @@
+
+
+
 *{
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(https://jp.lt/wp-content/uploads/2019/09/gelezinkelis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-color: lightgray;
+}
+
+nav{
+    margin-top: 20px;
+    
+}
+
+a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
 .w-45{
+    border-radius: 20px;
+    padding: 50px 20px;
+    margin: 20px;
     width: 45%;
+    background-color: white;
 }
 
 .w-100{
+    border-radius: 20px;
+    padding: 50px 20px;
+    margin: 20px;
     width: 100%;
+    background-color: white;
 }
 
 .wrapper{
@@ -19,8 +51,23 @@
     display: flex;
 }
 
+.center{
+    justify-content: center;
+}
+
 .row{
     display: flex;
     flex-direction: row;
 }
 
+.around{
+    justify-content: space-around;
+}
+
+
+footer{
+    background-color: lightgray;
+    color: white;
+}
+
+}
